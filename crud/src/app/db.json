@@ -1,12 +1,14 @@
-[
-  {
-    "id": 1,
-    "name": "John Doe",
-    "email": "john@example.com"
-  },
-  {
-    "id": 2,
-    "name": "Jane Doe",
-    "email": "jane@example.com"
-  }
-]
+{
+  "messages": [
+    {
+      "id": "d52a",
+      "text": "Hi",
+      "sender": "User"
+    },
+    {
+      "id": "d505",
+      "text": "how are you",
+      "sender": "User"
+    }
+  ]
+}

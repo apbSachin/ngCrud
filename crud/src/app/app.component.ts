@@ -1,13 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
-export class AppComponent  {
+export class AppComponent implements OnInit {
   title = 'crud';
-  
+
+  myForm!: FormGroup;
+  constructor(private formBuilder: FormBuilder) {}
+
+  ngOnInit(): void {
+   
+  }
+
+
+
 
 }

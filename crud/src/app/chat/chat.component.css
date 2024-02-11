@@ -1,0 +1,59 @@
+/* chat.component.css */
+
+/* Chat container with background image */
+.chat-container {
+    width: 100%;
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    background-image: url('https://lh3.googleusercontent.com/0MpJUadsWb0L3oq76xBea7jX77vp0GhGKx6o4_xtkv8pdJPkncmlmc4hBMJfzsE6-Q_oxJkI8w2w9Wy33miHsw=h200-rw'); /* Replace 'path/to/your/background/image.jpg' with the actual path to your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+  }
+  
+  /* Chat message */
+  .message {
+    background-color: #fff; /* White background */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow effect */
+  }
+  
+  /* Sender name */
+  .message small {
+    color: #666; /* Gray color for sender's name */
+  }
+  
+  /* Input container */
+  .input-container {
+    margin-top: 20px;
+  }
+  
+  /* Input field */
+  .input-container input[type="text"] {
+    width: calc(100% - 100px); /* Adjust width minus button width and padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  /* Send button */
+  .input-container button {
+    width: 100px; /* Button width */
+    padding: 10px;
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  /* Hover effect on send button */
+  .input-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
